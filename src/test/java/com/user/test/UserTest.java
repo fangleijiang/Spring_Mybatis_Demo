@@ -40,6 +40,7 @@ public class UserTest {
 		List<User> list = userService.getAll();
 		System.out.println(JSON.toJSONStringWithDateFormat(list,"yyyy-mm-dd HH:mm:ss"));
 	}
+
 	
 	@Test
 	public void getAll2(){
