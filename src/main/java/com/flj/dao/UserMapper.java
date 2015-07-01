@@ -3,10 +3,6 @@ import java.util.List;
 
 import com.flj.model.User;
 
-
-
-
-
 public interface UserMapper {
     int deleteByPrimaryKey(Integer id);
 
